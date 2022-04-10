@@ -30,5 +30,7 @@
             - You might have a bunch of fields with sensitive information (like SSN, Salary, Address etc) in your dataset that you want only users with elevated privileges to see. You can set this up by applying CLS on the dataset. Users who have been granted access to all fields will be able to see all visuals in the dashboards/analyses that are shared with them.
         - https://catalog.us-east-1.prod.workshops.aws/workshops/cd8ebba2-2ef8-431a-8f72-ca7f6761713d/en-US/author-workshop/6-data-security
         - https://docs.aws.amazon.com/quicksight/latest/user/namespaces.html
-    - ML
-            - 
+    - Machine Learning
+        - Narratives, Forecasting, Anomaly Detection and Contribution Analysis (pretty cool)
+            - Note that anomoly detection does not work with datasets that have Row/column level security. 
+        - https://catalog.us-east-1.prod.workshops.aws/workshops/cd8ebba2-2ef8-431a-8f72-ca7f6761713d/en-US/author-workshop/7-machine-learning
